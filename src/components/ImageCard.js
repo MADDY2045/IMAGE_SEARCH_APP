@@ -16,12 +16,7 @@ const ImageCard = ({
         data-testid="image-card-body-div"
         className="card card-body bg-dark text-center h-100"
       >
-        <img
-          id="img-all"
-          className="w-100 mb-2"
-          src={regular}
-          alt="Image Cover"
-        />
+        <img id="img-all" className="w-100 mb-2" src={regular} alt="Cover" />
         <small
           data-testid="image-card-title"
           className="text-light card-title align-middle"
